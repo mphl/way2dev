@@ -8,6 +8,7 @@ Já parou pra pensar a quantidade de coisas que um desenvolvedor de software pre
 - Peça ajuda, mas saiba pesquisar antes
 - Como aprender rápido?
 - Goste do que você faz
+
 ### Estrutura de dados
 - Array
 - Matrix (Matrix)
@@ -17,5 +18,7 @@ Já parou pra pensar a quantidade de coisas que um desenvolvedor de software pre
 - Binary Tree (árvore binária)
 - Graph (Grafo)
 - Hashing
+
 ### Uso básico do terminal
+
 ### Controle de versão
