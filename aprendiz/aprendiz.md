@@ -4,10 +4,8 @@ Olá jovem gafanhoto, aqui começa sua jornada para ter uma boa base em computa�
 
 Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobre ele, mas uma [dica](introducao/baseSolida) de um velho sábio é sempre começar pelo começo ;-) 
 
-- [Quero iniciar do começo.](introducao/introducao)
-- [O que um apreniz precisa conhecer ?](../sitemap#aprendiz)
+[Quero iniciar do começo.](introducao/introducao)
 
-// Acho que seria mais interessante já deixar disponível aqui a Jornada do aprendiz, mas vou esperar terminar os tópicos para não ter que refazer em 2 lugares.
 <details>
   <summary>Jornada do aprendiz</summary>
   
@@ -20,3 +18,5 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
   2. Conceitos básicos
   3. Estrutura de dados
 </details>
+
+// TODO recuperar os itens desse [link](../sitemap#aprendiz) para exibir na Jornada
