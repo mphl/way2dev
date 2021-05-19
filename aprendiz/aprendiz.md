@@ -8,12 +8,10 @@ Fique a vontade para escolher um tópico da jornada que mais te agrada e aprende
 
 <details>
   <summary>Jornada do Aprendiz</summary>
-  
-  ### Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+    * Introdução
+    * Conceitos básicos
+    * Estrutura de dados
+    * Uso básico do terminal
+    * Controle de versão
 </details>
 
-// TODO recuperar os itens desse [link](../sitemap#aprendiz) para exibir na Jornada
