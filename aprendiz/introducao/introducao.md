@@ -1,5 +1,5 @@
 # Introdução
-Olá amigo leitor, ficamos felizes que você decidiu aprender sobre desenvolvimento de software e deu a oportunidade ao nosso site de te guiar nesta jornada.
+Fico feliz que você decidiu aprender sobre desenvolvimento de software e deu a oportunidade ao nosso site de te guiar nesta jornada.
 
 Os próximos tópicos desta introdução trazem dicas que eu gostaria de ter escutado quando comecei a estudar, independentemente do assunto ser computação ou não. 
 
