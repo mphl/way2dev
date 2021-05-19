@@ -9,9 +9,11 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
 <details>
   <summary>Jornada do aprendiz</summary>
   
-  ## Introdução
-  1. Tenha uma base sólida
-  2. A arte de fazer acontecer (método GTD)
-     * With some
-     * Sub bullets
+  1. Introdução
+     * Tenha uma base sólida
+     * A arte de fazer acontecer (método GTD)
+     * Peça ajuda, mas saiba pesquisar antes
+     * Como aprender rápido?
+     * Goste do que você faz
+  2. Conceitos básicos
 </details>
