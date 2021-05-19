@@ -7,16 +7,13 @@ Fique a vontade para escolher um tópico da jornada que mais te agrada e aprende
 [Quero iniciar do começo.](introducao/introducao)
 
 <details>
-  <summary>Jornada do aprendiz</summary>
+  <summary>Jornada do Aprendiz</summary>
   
-  1. Introdução
-     * Tenha uma base sólida
-     * A arte de fazer acontecer (método GTD)
-     * Peça ajuda, mas saiba pesquisar antes
-     * Como aprender rápido?
-     * Goste do que você faz
-  2. Conceitos básicos
-  3. Estrutura de dados
+  ### Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
 </details>
 
 // TODO recuperar os itens desse [link](../sitemap#aprendiz) para exibir na Jornada
