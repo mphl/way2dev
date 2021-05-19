@@ -10,4 +10,4 @@ Vou fazer um breve resumo aqui do conteúdo de cada tópico, mas se nada disso t
 - [Peça ajuda, mas saiba pesquisar antes](./ajudaPesquisa): Esse tópico te ajuda a decidir quando está na hora de pedir ajuda.
 - [Como aprender rápido?](./aprenderRapido): Nem todo mundo aprende da mesma forma. Ao descobrir a sua melhor forma de aprendizado você irá fixar melhor os conhecimentos deste site.
 - [Aprenda inglês](./aprenderIngles): Saiba porque o inglês é tão importante em computação.
-- [Goste do que você faz](./gostoDoQueFaz): Nós nunca seremos realmente bons se não gostarmos do que fazemos. 
+- [Goste do que você faz](./gosteDoQueFaz): Nós nunca seremos realmente bons se não gostarmos do que fazemos. 
