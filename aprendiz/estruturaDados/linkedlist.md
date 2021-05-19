@@ -3,10 +3,10 @@ Esta estrutura de dados representa uma lista encadeada linear. Diferentemente do
 Assim como o Array, essa estrutura de dados não é boa para verificar se algum elemento existe nesta coleção que não esteja no início ou no fim.
 
 
-Essa estrutura de dados parece complicada de lembrar ? Vou te dar um exemplo.
+### Essa estrutura de dados parece complicada de lembrar ? Vou te dar um exemplo.
 Imagina que você tivesse que criar uma lista de todas as pessoas que leram um determinado livro. No momento da criação, você ainda não sabe o tamanho dessa lista, e muito menos se ela vai ser pequena ou grande, então usar um array para essa abordagem não seria bom. Você poderia então anotar apenas o nome da primeira pessoa que leu e pedir para ela guardar o nome da pessoa que ela emprestou o livro. Assim, sempre que uma pessoa nova ler o livro, basta colocar o nome dela no fim da lista. Mas vou te contar o lado ruim dessa abordagem: e se você quiser saber se o João já leu o livro? Infelizmente, você teria que utilizar o ponteiro do início (head) e percorrer toda a lista para ver se o nome dele aparece.
 
 
-Checkpoint
-1.Faça uma lista comparando as vantagens e desvantagens do Array e da LinkedList.
+## Checkpoint
+Faça uma lista comparando as vantagens e desvantagens do Array e da LinkedList.
 
