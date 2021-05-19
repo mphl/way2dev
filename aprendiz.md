@@ -6,6 +6,16 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
 
 [Quero iniciar do começo.](./aprendiz/introducao)
 
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
 <details> <summary>Jornada do aprendiz</summary>
 # Table of contents
 1. [Introduction](#introduction)
