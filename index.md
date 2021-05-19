@@ -12,6 +12,6 @@ Adquirindo novas habilidades
 - Devops
 - Gestão
 
-[Como esse site funciona ?](comofunciona)
+[Como esse site funciona?](comofunciona)
 
-[Já parou pra pensar a quantidade de coisas que um desenvolvedor de software precisa saber ?](sitemap)
+[Já parou pra pensar a quantidade de coisas que um desenvolvedor de software precisa saber?](sitemap)
