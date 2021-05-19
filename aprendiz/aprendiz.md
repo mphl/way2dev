@@ -2,7 +2,7 @@
 
 Olá jovem gafanhoto, aqui começa sua jornada para ter uma boa base em computação. 
 
-Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobre ele, mas uma [dica](introducao/baseSolida) de um velho sábio é sempre começar pelo começo ;-) 
+Fique a vontade para escolher um tópico da jornada que mais te agrada e aprender sobre ele, mas a [dica](introducao/baseSolida) de um velho sábio 🧙‍♂️ é: sempre comece pelo começo. 
 
 [Quero iniciar do começo.](introducao/introducao)
 
