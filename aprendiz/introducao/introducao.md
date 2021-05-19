@@ -5,6 +5,8 @@ Os próximos tópicos desta introdução trazem dicas que eu gostaria de ter esc
 
 Vou fazer um breve resumo aqui do conteúdo de cada tópico, mas se nada disso te interessar, pule 6 casas e vá direto para o capítulo [Conceitos Básicos](../conceitosBasicos/conceitosBasicos) que vamos começar a conversar sobre computação. 
 
+
+
 - [Tenha uma base sólida](baseSolida): Aqui você vai entender porque não deveria pular tópicos básicos.
 - [A arte de fazer acontecer](gtd): Aqui você vai aprender um método para ajudar a organizar suas tarefas e conseguir realizar seus objetivos.
 - [Peça ajuda, mas saiba pesquisar antes](ajudaPesquisa): Esse tópico te ajuda a decidir quando está na hora de pedir ajuda.
