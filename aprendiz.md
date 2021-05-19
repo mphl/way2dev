@@ -6,20 +6,12 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
 
 [Quero iniciar do começo.](./aprendiz/introducao)
 
-<details>
- <summary>Jornada do aprendiz</summary>
-- example 1
-- example 2
-- <details><summary>example 3 (click to expand)</summary>
-
-  \```text
-  weee
-    weee
-  weee
-  \```
-  `note the newlines and indents - and the \ was added in front of ``` to escape the code-section (remove it for actual use)`
-</details>
-
-- example 4
-
+<details> <summary>Jornada do aprendiz</summary>
+ <details open><summary>Introdução</summary>
+  <p>Tenha uma base sólida</p>
+  <p>A arte de fazer acontecer (método GTD)</p>
+  <p>Peça ajuda, mas saiba pesquisar antes</p>
+  <p>Como aprender rápido?</p>
+  <p>Goste do que você faz</p>
+ </details>
 </details> 
