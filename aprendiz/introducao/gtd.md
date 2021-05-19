@@ -26,13 +26,13 @@ Independendentemente de qual ferramenta você escolheu, você deve ter as seguin
 
 O Processo então consistem em três etapas:
 
-### Anote tudo que for importante
-Anote tudo que chamar sua atenção ou que você precisa lembrar depois. 
+<details><summary>Anote tudo que for importante</summary>
+<p>Anote tudo que chamar sua atenção ou que você precisa lembrar depois. </p>
+<p>Uma dica importante é não ter muitos locais de anotação. Tudo bem se você quiser separar um local para assuntos pessoais e outro para assuntos profissionais, mas cuidado para não criar muitas divisões, pois senão você pode ter dificuldade de escolher o lugar que deve fazer a anotação e acabar esquecendo o que iria anotar.</p> 
+</details>  
 
-Uma dica importante é não ter muitos locais de anotação. Tudo bem se você quiser separar um local para assuntos pessoais e outro para assuntos profissionais, mas cuidado para não criar muitas divisões, pois senão você pode ter dificuldade de escolher o lugar que deve fazer a anotação e acabar esquecendo o que iria anotar. 
-
-### Processe as informações
-Regularmente passe por todas as suas anotações e defina o que fazer com elas. É importante que essa tarefa seja rápida. Siga essas dicas para ajudar nesse processo:
+<details><summary>Processe as informações</summary>
+<p>Regularmente passe por todas as suas anotações e defina o que fazer com elas. É importante que essa tarefa seja rápida. Siga essas dicas para ajudar nesse processo:
 
 Se você não se lembra mais o que era essa anotação ou ela não faz mais sentido (talvez você já tenha realizado o item antes de processar sua lista), apenas apague essa anotação.
 Se essa anotação é uma informação ou algo que você vai precisar consultar algum dia, anote em seu local separado de consulta.
@@ -41,7 +41,13 @@ Se essa informação é algo que você vai precisar pensar em como executar, col
 Se essa anotação é para você fazer algo que não é possível fazer agora, coloque no seu calendário uma data para quando acredita que será possível fazer.
 Se essa anotação é sobre algo que você precisa pedir para alguém fazer e você puder já fazer a solicitação, faça a solicitação agora, se você puder solicitar só quando ver a pessoa, anote no seu calendário o dia que vai ver a pessoa e coloque o lembrete do que você quer com ela, se você não souber quando vai encontrar a pessoa, coloque em seu local de consulta o nome dela que quando você ver aquela pessoa vai precisar de algo. 
 Independentemente da forma que você solicitou algo para alguém, se ela não te der o retorno na hora, pergunte quando ela poderá retornar essa informação e marque no seu calendário a data para fazer o acompanhamento. Se a pessoa não te dar uma data, anote em seus projetos para fazer este acompanhamento.
+</p> 
+</details>  
 
-### Organize seus projetos
-Defina em seu calendário dias/horários para você organizar suas anotações. Ter uma lista muito grande de itens em seus projetos pode dificultar a organização, então estipule uma quantidade de ideias na fila e sempre que quiser adicionar uma nova, pense em qual seria prioritária, se a nova for mais importante que uma antiga, então remova a antiga antes de adicionar a nova.
+
+<details><summary>Organize seus projetos</summary>
+<p>Defina em seu calendário dias/horários para você organizar suas anotações. Ter uma lista muito grande de itens em seus projetos pode dificultar a organização, então estipule uma quantidade de ideias na fila e sempre que quiser adicionar uma nova, pense em qual seria prioritária, se a nova for mais importante que uma antiga, então remova a antiga antes de adicionar a nova.
 Hoje em dia é muito comum a gente ter várias tarefas, então espero que você consiga encaixar em seu calendário um horário fixo para seguir em sua jornada nesse site. Com esse comprometimento, vai ser mais fácil você não esquecer do quanto aprender é importante. 🤓
+</p> 
+</details> 
+
