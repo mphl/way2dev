@@ -8,6 +8,7 @@ Essa estrutura de dados funciona exatamente igual a fila de um supermercado. A p
 <summary>É possível saber facilmente qual a terceira pessoa da lista?</summary>
 <p>Não, pois só temos acesso ao início e ao fim da fila.</p>
 </details>
+<details>
 <summary>É possível saber facilmente se uma pessoa está na fila?</summary>
 <p>Não, pois só temos acesso ao início e ao fim da fila.</p>
 </details>
