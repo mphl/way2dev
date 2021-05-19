@@ -8,9 +8,10 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
 
 <details>
   <summary>Jornada do aprendiz</summary>
-  * Introdução
-     * Tenha uma base sólida
-     * A arte de fazer acontecer (método GTD)
-  * Conceitos básicos
-     * O que é programar ?
+  
+  ## Introdução
+  1. Tenha uma base sólida
+  2. A arte de fazer acontecer (método GTD)
+     * With some
+     * Sub bullets
 </details>
