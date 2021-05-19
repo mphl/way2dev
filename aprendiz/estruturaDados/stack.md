@@ -4,6 +4,8 @@ A pilha é uma estrutura de dados linear, mas existe uma particularidade na orde
 Essa estrutura de dados funciona igualzinho uma pilha de louça suja, você sempre adiciona os itens em cima e quando vai retirar para lavar, retira da parte de cima também.
 
 
-Checkpoint:
-Cite uma característica de um editor de texto que utiliza pilha.
-A característica de "undo" e "redo". 
+## Checkpoint:
+<details>
+<summary>Cite uma característica de um editor de texto que utiliza pilha.</summary>
+<p>A característica de "undo" e "redo". </p>
+</details>
