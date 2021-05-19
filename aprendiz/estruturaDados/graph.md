@@ -13,6 +13,8 @@ Agora que você aprendeu o que é um grafo, conseguiria me dizer onde ele é mui
 Grafo é a melhor estrutura de dados para armazenar relacionamentos, por isso, esta é a estrutura de dados principal ao se construir uma rede social. Onde, por exemplo, os nós são as pessoas e as arestas representam o seu relacionamento.
 
 
-Checkpoint
-1 . Qual a relação entre uma árvore em um grafo ?
-A árvore é um grafo direcionado acíclico que possui um nó chamado raiz que indica o início do grafo.
+## Checkpoint
+<details>
+<summary>Qual a relação entre uma árvore em um grafo?</summary>
+<p>A árvore é um grafo direcionado acíclico que possui um nó chamado raiz que indica o início do grafo.</p>
+</details>
