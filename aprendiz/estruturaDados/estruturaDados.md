@@ -10,17 +10,18 @@ Para escolher qual estrutura de dados utilizar, deve-se levar em consideração 
 
 Existem diversas estruturas de dados, vamos conhecer uma a uma com calma.
 
-Nossa primeira será o [Array.](array)
+* [Array](array)
+* [Matrix (Matriz)](matrix)
+* [LinkedList (lista encadeada)](linkedlist)
+* [Queue (Filas)](queue)
+* [Stack (Pilhas)](stack)
+* [Binary Tree (árvores binárias)](binarytree)
+* [Graph (Grafos)](graph)
+* [Hashing](hashing)
 
-<details>
-  <summary>Quais estruturas que vou aprender aqui ?</summary>
-    * Array
-    * Matrix (Matriz)
-    * LinkedList (lista encadeada)
-    * Queue (Filas)
-    * Stack (Pilhas)
-    * Binary Tree (árvores binárias)
-    * Graph (Grafos)
-    * Hashing
-</details>
+Agora que você já conhece algumas estruturas de dados, só falta conhecer algumas ferramentas para começar a escrever seus algoritmos. 
+Você precisa aprender:
+[Uso básico do terminal](../terminal/terminal)
+[Controle de versão](../controleVersao/controleVersao)
 
+Se já souber tudo isso (~~e não quiser repassar o conteúdo~~) pode ir direto para [Algoritmos](../algoritmo/algoritmo)
