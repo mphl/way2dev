@@ -4,13 +4,12 @@ Se você é curioso, gosta de computação, lógica, quebra cabeças e é persis
 
 Caso você esteja no começo de sua jornada, ou seja um profissional experiente querendo validar seu conhecimento sobre os fundamentos da programação, comece sua jornada pelo caminho do [Aprendiz](./aprendiz).
 
-**// TODO**
+**// TODO** 👇
 
 Adquirindo novas habilidades
-- SoftSkills
 - Frontend
 - Backend
 - Devops
 - Gestão
 
-[Como esse site funciona ?](./comofunciona)
+[Como esse site funciona ?](comofunciona)
