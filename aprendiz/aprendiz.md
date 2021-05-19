@@ -2,9 +2,9 @@
 
 Olá jovem gafanhoto, aqui começa sua jornada para ter uma boa base em computação. 
 
-Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobre ele, mas uma [dica](aprendiz/baseSolida) de um velho sábio é sempre começar pelo começo ;-) 
+Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobre ele, mas uma [dica](introducao/baseSolida) de um velho sábio é sempre começar pelo começo ;-) 
 
-[Quero iniciar do começo.](aprendiz/introducao)
+[Quero iniciar do começo.](introducao/introducao)
 
 <details>
   <summary>Jornada do aprendiz</summary>
@@ -16,4 +16,5 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
      * Como aprender rápido?
      * Goste do que você faz
   2. Conceitos básicos
+  3. Estrutura de dados
 </details>
