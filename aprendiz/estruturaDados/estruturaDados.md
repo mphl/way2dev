@@ -10,6 +10,17 @@ Para escolher qual estrutura de dados utilizar, deve-se levar em consideração 
 
 Existem diversas estruturas de dados, vamos conhecer uma a uma com calma.
 
-Nossa primeira será o [Array](array)
+Nossa primeira será o [Array.](array)
 
+<details>
+  <summary>Quais estruturas que vou aprender aqui ?</summary>
+    * Array
+    * Matrix (Matriz)
+    * LinkedList (lista encadeada)
+    * Queue (Filas)
+    * Stack (Pilhas)
+    * Binary Tree (árvores binárias)
+    * Graph (Grafos)
+    * Hashing
+</details>
 
