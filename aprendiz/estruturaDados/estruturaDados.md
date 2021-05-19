@@ -10,6 +10,6 @@ Para escolher qual estrutura de dados utilizar, deve-se levar em consideração 
 
 Existem diversas estruturas de dados, vamos conhecer uma a uma com calma.
 
-Nossa primeira será o [Array](array.md)
+Nossa primeira será o [Array](array)
 
 
