@@ -7,11 +7,9 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
 [Quero iniciar do começo.](./aprendiz/introducao)
 
 <details> <summary>Jornada do aprendiz</summary>
- <details open><summary>Introdução</summary>
-  <li>Tenha uma base sólida</li>
-  <li>A arte de fazer acontecer (método GTD)</li>
-  <li>Peça ajuda, mas saiba pesquisar antes</li>
-  <li>Como aprender rápido?</p>
-  <li>Goste do que você faz</p>
- </details>
+# Table of contents
+1. [Introduction](#introduction)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
 </details> 
