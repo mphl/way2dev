@@ -8,10 +8,10 @@ Fique a vontade para escolher um tópico que mais te agrada e aprender mais sobr
 
 <details> <summary>Jornada do aprendiz</summary>
  <details open><summary>Introdução</summary>
-  <p>Tenha uma base sólida</p>
-  <p>A arte de fazer acontecer (método GTD)</p>
-  <p>Peça ajuda, mas saiba pesquisar antes</p>
-  <p>Como aprender rápido?</p>
-  <p>Goste do que você faz</p>
+  <li>Tenha uma base sólida</li>
+  <li>A arte de fazer acontecer (método GTD)</li>
+  <li>Peça ajuda, mas saiba pesquisar antes</li>
+  <li>Como aprender rápido?</p>
+  <li>Goste do que você faz</p>
  </details>
 </details> 
