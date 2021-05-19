@@ -5,9 +5,9 @@ Os próximos tópicos desta introdução trazem dicas que eu gostaria de ter esc
 
 Vou fazer um breve resumo aqui do conteúdo de cada tópico, mas se nada disso te interessar vá direto para o capítulo [Conceitos Básicos](./conceitosbasicos). 
 
-- [Tenha uma base sólida](./baseSolida): Aqui você vai entender porque não deveria pular tópicos básicos.
-- [A arte de fazer acontecer](./gtd): Aqui você vai aprender um método para ajudar a organizar suas tarefas e conseguir realizar seus objetivos.
-- [Peça ajuda, mas saiba pesquisar antes](./ajudaPesquisa): Esse tópico te ajuda a decidir quando está na hora de pedir ajuda.
-- [Como aprender rápido?](./aprenderRapido): Nem todo mundo aprende da mesma forma. Ao descobrir a sua melhor forma de aprendizado você irá fixar melhor os conhecimentos deste site.
-- [Aprenda inglês](./aprenderIngles): Saiba porque o inglês é tão importante em computação.
-- [Goste do que você faz](./gosteDoQueFaz): Nós nunca seremos realmente bons se não gostarmos do que fazemos. 
+- [Tenha uma base sólida](introducao/baseSolida): Aqui você vai entender porque não deveria pular tópicos básicos.
+- [A arte de fazer acontecer](introducao/gtd): Aqui você vai aprender um método para ajudar a organizar suas tarefas e conseguir realizar seus objetivos.
+- [Peça ajuda, mas saiba pesquisar antes](introducao/ajudaPesquisa): Esse tópico te ajuda a decidir quando está na hora de pedir ajuda.
+- [Como aprender rápido?](introducao/aprenderRapido): Nem todo mundo aprende da mesma forma. Ao descobrir a sua melhor forma de aprendizado você irá fixar melhor os conhecimentos deste site.
+- [Aprenda inglês](introducao/aprenderIngles): Saiba porque o inglês é tão importante em computação.
+- [Goste do que você faz](introducao/gosteDoQueFaz): Nós nunca seremos realmente bons se não gostarmos do que fazemos. 
