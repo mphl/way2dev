@@ -16,7 +16,7 @@ Adquirindo novas habilidades
 - Systems design
 - Gestão
 
-[Fórum / Hora da discórdia](forum): Local para bater papo com outros devs.
+[Fórum / Hora da discórdia](forum/forum): Local para bater papo com outros devs.
 
 [Como esse site funciona?](comofunciona)
 
