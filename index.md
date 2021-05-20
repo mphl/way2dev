@@ -9,8 +9,14 @@ Caso você esteja no começo de sua jornada, ou seja um profissional experiente 
 Adquirindo novas habilidades
 - Frontend
 - Backend
+- Quality
+- Data
+- Security
 - Devops
+- Systems design
 - Gestão
+
+Fórum / Hora da discórdia
 
 [Como esse site funciona?](comofunciona)
 
