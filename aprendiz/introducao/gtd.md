@@ -1,8 +1,6 @@
 # A arte de fazer acontecer (método GTD)
  
 Nossa mente foi feita para processar informações e não armazenar dados. Para a tarefa de armazenamento devemos confiar em nossa memória. Mas o que garante que nossa memória vai lembrar do que precisamos quando precisamos ? Nada. Então normalmente ficamos constantemente utilizando nosso processamento da mente para nos lembrar que temos algo importante na memória. O grande problema é que isso não é efetivo, gerando cansaço mental ou esquecendo de coisas importantes.
-
-<img class="center" src="https://hips.hearstapps.com/countryliving.cdnds.net/17/11/2048x1362/gallery-1489490996-memory-mind-brain.jpg?resize=480:*" width="200"/>
  
 Em engenharia de software, uma coisa muito comum é que para explicar um conceito você acaba utilizando outros e isso acaba gerando uma bola de neve. Um exemplo disso é quando você abre uma janela no seu navegador para pesquisar um assunto, aí ele fala uma palavra que você não sabe, então você abre outra janela para pesquisar e quando percebe, já abriu muitas janelas e nem lembra mais qual o texto que te levou até ali.
 
