@@ -11,4 +11,12 @@ Falando em colaboração no desenvolvimento, você deve estar pensando como uma 
 
 [Esse é o atalho para que já tem o Git e quer saber apenas os comandos do dia a dia.](diadia)
 
-git checkout -b [Uso básico do terminal](terminal/terminal)
+[Dicas e truques](dicas)
+
+[Gitflow](gitflow)
+
+[Git hooks](hooks)
+
+Espero que você tenha aprendido o básico aqui, mas se tiver gostado e quiser aprender mais, siga o link para a [documentação oficial](https://git-scm.com/doc) onde você vai encontrar o manual de referências, vídeos, livros, etc.
+Um ótimo local para ficar fera em git é realizando esse [tutorial](https://www.atlassian.com/git/tutorials) da Atlassian.
+
