@@ -1,7 +1,9 @@
 # Instalando o git
 Você precisa instalar o git em seu computador, basta clicar [aqui](https://git-scm.com/downloads) e escolher o seu sistema operacional.
 
-Se você não leu [Uso básico do terminal](../terminal/terminal), recomendamos a leitura, pois utilizaremos o terminal para controlar o git para fim de aprendizado. Depois que você pegar o jeito com o git, pode utilizar de ferramentas visuais como o [GitKraken](https://www.gitkraken.com/) que te ajudam a controlar tudo de forma visual, mas é importante o seu primeiro contato ser com a linha de comando.
+Se você não leu [Uso básico do terminal](../terminal/terminal), recomendamos a leitura, pois utilizaremos o terminal para controlar o git para fim de aprendizado. 
+
+Depois que você pegar o jeito com o git, pode utilizar de ferramentas visuais como o [GitKraken](https://www.gitkraken.com/) que te ajudam a controlar tudo de forma visual, mas é importante o seu primeiro contato ser com a linha de comando.
 
 Para verificar que tudo está instalado certinho, abra o terminal e digite o comando `git --version` . Se aparecer abaixo do seu comando a versão do git, tudo funcionou, qualquer outra mensagem, tente instalar o git novamente porque não deu certo da primeira vez.
 
@@ -15,7 +17,9 @@ Obs. o parâmetro --global indica que essas informações serão válidas para t
 Criando o repositório remoto
 
 Nós utilizaremos o Github por ser a ferramenta mais conhecida para hospedar código, além de ser gratuita. 😉
+
 Primeiro, você vai precisar criar uma conta gratuita no site do [Github](https://github.com/).
+
 Depois você deve criar um repositório, pode chamá-lo de *way2dev* ou qualquer nome que quiser. Cada repositório deve ser utilizado para armazenar um projeto. Que tal o seu primeiro projeto ser o seu aprendizado com esse site? Vou explicar sobre isso mais pra frente, mas por enquanto, vamos começar pelo básico do git. 
 
 ## Criando o repositório local
