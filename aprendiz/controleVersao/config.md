@@ -8,6 +8,7 @@ Para verificar que tudo está instalado certinho, abra o terminal e digite o com
 Com o git instalado, vamos começar configurando nossas credenciais. O comando `git config` é capaz de configurar várias coisas, mas no momento, vamos configurar apenas o nosso nome e email.
 
 `git config --global user.name "John Doe"`
+
 `git config --global user.email "john.doe@mail.com"`
 
 Obs. o parâmetro --global indica que essas informações serão válidas para todos os seus projetos. Se por uma acaso você vai ter na mesma máquina projetos pessoais e profissionais ou então mais de um profissional, não coloque o parâmetro --global.
@@ -20,17 +21,26 @@ Depois você deve criar um repositório, pode chamá-lo de *way2dev* ou qualquer
 ## Criando o repositório local
 Criando um repositório local e apontando para um repositório remoto vazio
 `mkdir way2dev`   // cria um diretório
+
 `cd way2dev`      // acessa o diretório
+
 `echo "# way2dev learning" >> README.md`   // cria um arquivo chamado README.md com o texto way2dev learning
+
 `git init`    // inicializa o git neste diretório
+
 `git add README.md`   // adiciona o arquivo README.md na lista de arquivos controlados pelo git
+
 `git commit -m "first commit"` // informa o git que terminou as alteração e passa uma mensagem do que se trata aquela alteração
+
 `git branch -M main`   // informa para o git a ramificação do repositório que ele deve salvar o arquivo
+
 `git remote add origin` https://github.com/<user>/<prject>.git  // informa para o git o endereço remoto de seu repositório
+  
 `git push -u origin main` // envia para o repositório remoto  as alterações
 
-Criando um repositório local a partir de um repositório remoto já existente.
+## Criando um repositório local a partir de um repositório remoto já existente.
 Você apenas precisa entrar no diretório de trabalho do seu computador e executar o comando
+
 `git clone https://github.com/<user>/<project>.git`
 
 ## Ignorando arquivos do controle do git
