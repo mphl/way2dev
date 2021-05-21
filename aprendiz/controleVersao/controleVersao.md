@@ -30,3 +30,5 @@ Um ótimo local para ficar fera em git é realizando esse [tutorial](https://www
 <details><summary>Qual a diferença de um commit para um stash?</summary>
 <p>O stash salva suas alterações em uma pilha de mudanças temporária enquanto o commit gera um hash de alteração que pode ser utilizado com outros comandos do git.</p>
 </details>  
+
+git checkout "[Algoritmos](../algoritmos/algoritmos)`
