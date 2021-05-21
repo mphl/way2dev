@@ -5,6 +5,7 @@ Provavelmente se você é um iniciante em programação, é bem provável que at
 Já digo que alguns programadores realmente passam a sua rotina diária quase que completa no terminal, mas isso é apenas um grupo de pessoas que tem essa necessidade, é perfeitamente normal você ser um ótimo programador e ter apenas um conhecimento básico das funcionalidades do terminal.
 
 - [Lista de comandos básicos](comandos)
+- [Aprendendo um pouco mais](mais)
 - [Bônus: Comandos Bash](bash)
 - [Bônus: Deixando seu terminal mais elegante](zsh)
 
