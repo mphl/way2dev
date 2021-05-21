@@ -19,9 +19,9 @@ Existem diversas estruturas de dados, vamos conhecer uma a uma com calma.
 * [Graph (Grafos)](graph)
 * [Hashing](hashing)
 
-Agora que você já conhece algumas estruturas de dados, só falta conhecer algumas ferramentas para começar a escrever seus algoritmos. 
+Agora que você já conhece algumas estruturas de dados, só falta conhecer algumas ferramentas para ajudar a escrever seus algoritmos. 
 Você precisa aprender:
-[Uso básico do terminal](../terminal/terminal)
-[Controle de versão](../controleVersao/controleVersao)
+* [Uso básico do terminal](../terminal/terminal)
+* [Controle de versão](../controleVersao/controleVersao)
 
 Se já souber tudo isso (~~e não quiser repassar o conteúdo~~) pode ir direto para [Algoritmos](../algoritmo/algoritmo)
