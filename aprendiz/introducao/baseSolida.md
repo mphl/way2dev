@@ -16,4 +16,4 @@ Voltando ao exemplo do desenho, não é porque você sabe fazer pintura a óleo 
  
 É legal saber como o Netflix consegue receber milhões de requisições por minuto, mas se você não souber o que acontece quando ocorre uma requisição a um servidor, não adianta você querer estudar como controlar milhões de requisições.  
 
-Então lembre-se: por mais que você saiba questões avançadas, se não souber o básico, sempre será considerado iniciante.
+Então, lembre-se: por mais que você saiba questões avançadas, se não souber o básico, sempre será considerado iniciante.
