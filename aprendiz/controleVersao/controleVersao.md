@@ -31,4 +31,4 @@ Um ótimo local para ficar fera em git é realizando esse [tutorial](https://www
 <p>O stash salva suas alterações em uma pilha de mudanças temporária enquanto o commit gera um hash de alteração que pode ser utilizado com outros comandos do git.</p>
 </details>  
 
-git checkout "[Algoritmos](../algoritmos/algoritmos)`
+- git checkout "[Algoritmos](../algoritmos/algoritmos)"
