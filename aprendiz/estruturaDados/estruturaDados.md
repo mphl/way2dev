@@ -24,4 +24,4 @@ Você precisa aprender:
 * [Uso básico do terminal](../terminal/terminal)
 * [Controle de versão](../controleVersao/controleVersao)
 
-Se já souber tudo isso (~~e não quiser repassar o conteúdo~~) pode ir direto para [Algoritmos](../algoritmo/algoritmo)
+Se já souber tudo isso (~~e não quiser repassar o conteúdo~~) pode ir direto para [Algoritmos](../algoritmos/algoritmos)
