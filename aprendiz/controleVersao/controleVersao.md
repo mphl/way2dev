@@ -20,3 +20,13 @@ Falando em colaboração no desenvolvimento, você deve estar pensando como uma 
 Espero que você tenha aprendido o básico aqui, mas se tiver gostado e quiser aprender mais, siga o link para a [documentação oficial](https://git-scm.com/doc) onde você vai encontrar o manual de referências, vídeos, livros, etc.
 Um ótimo local para ficar fera em git é realizando esse [tutorial](https://www.atlassian.com/git/tutorials) da Atlassian.
 
+## Checkpoint
+<details><summary>Qual a diferença de Git e Github?</summary>
+<p>Git é a ferramenta para controlar as diferentes versões de um arquivo, já o Github é a plataforma para hospedagem de documentos que utiliza os conceitos do Git de forma remota em um servidor.</p>
+</details>  
+<details><summary>Qual a diferença do comando pull e merge?</summary>
+<p>Os dois comandos trazem as alterações remotas para sua máquina, mas o pull vai dar erro se você tiver alterações localmente, nesse caso, será necessário realizar um merge das alterações.</p>
+</details>  
+<details><summary>Qual a diferença de um commit para um stash?</summary>
+<p>O stash salva suas alterações em uma pilha de mudanças temporária enquanto o commit gera um hash de alteração que pode ser utilizado com outros comandos do git.</p>
+</details>  
