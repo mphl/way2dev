@@ -11,4 +11,4 @@ Nesse tópico, você precisa aprender:
 - Identificar o tipo de algoritmo
 - Técnicas avançadas de resolução de algoritmo
 
-Se você estiver pensando em fazer entrevistas de empreago, aproveita que atrás dessa [porta](entrevista) tem várias dicas, porém se você quer aprender como fazer um código bem feito, siga por [aqui](../cleanCode/cleanCode).
+Se você estiver pensando em fazer entrevistas de emprego, aproveita que atrás dessa [porta](entrevista) tem várias dicas, porém se você quer aprender como fazer um código bem feito, siga por [aqui](../cleanCode/cleanCode).
