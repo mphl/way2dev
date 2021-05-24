@@ -1,7 +1,7 @@
 # Será que eu conheço tudo isso?
 Já parou pra pensar a quantidade de coisas que um desenvolvedor de software precisa saber? Aqui podemos ter uma ideia!
 
--Aprendiz
+- Aprendiz
   - [Introdução](introducao/introducao)
   - [Conceitos básicos](conceitosBasicos/conceitosBasicos)
   - [Estrutura de dados](estruturaDados/estruturaDados)
