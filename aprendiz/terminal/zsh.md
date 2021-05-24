@@ -1,12 +1,10 @@
 # Deixando seu terminal mais elegante e informativo
 
+Caso você use MacOS, instalar o [iterm2](https://iterm2.com/)
 
-https://www.robertcooper.me/elegant-development-experience-with-zsh-and-hyper-terminal
+Siga os passos desse [tutorial](https://www.robertcooper.me/elegant-development-experience-with-zsh-and-hyper-terminal) para instalar o ZSH.
 
-Instalar iterm2
-Instalar oh my zsh 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is exactly what the name entails: it’s a powerful plugin that suggests commands as you type based on your history in the terminal.
-[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) brings basic bash script syntax coloring support to the Zsh terminal. With this, you’ll be able to spot mistypes before running commands.
-[powerlevel10k](https://github.com/romkatv/powerlevel10k) is an awesome-looking theme for Zsh which can actually make your [shell faster](https://github.com/romkatv/powerlevel10k#instant-prompt)!
+Alguns *power-ups*:
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): plugin para sugerir comandos enquando você digita baseado no histórico do seu terminal.
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): traz suport para colorir a sintaxe de bash no Zshterminal.
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k): um tema que pode deixar o seu [shell mais rápido](https://github.com/romkatv/powerlevel10k#instant-prompt).
