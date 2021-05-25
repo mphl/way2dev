@@ -13,7 +13,6 @@ Adquirindo novas habilidades
 - Data
 - Security
 - Devops
-- Systems design
 - Gestão
 
 [Fórum / Hora da discórdia](forum/forum): Local para bater papo com outros devs.
