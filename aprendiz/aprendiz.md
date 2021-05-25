@@ -13,5 +13,7 @@ Fique a vontade para escolher um tópico da jornada que mais te agrada e aprende
 - [Estrutura de dados](estruturaDados/estruturaDados)
 - [Uso básico do terminal](terminal/terminal)
 - [Controle de versão](controleVersao/controleVersao)
+- [Algoritmos](algoritmos/algoritmos)
+- [Clean Code](cleanCode/cleanCode)
 
 
