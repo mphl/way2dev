@@ -7,7 +7,7 @@ Parece complexo? Calma, já vou simplificar.
 Você pode nunca ter pensado nisso, mas uma receita culinária é um algoritmo para cozinha. Ela tem os ingredientes necessários (dados de entrada), passo a passo para realizar a receita (processamento ou instruções lógicas) e atinge um resultado (o prato finalizado). 
 
 Nesse tópico, você precisa aprender:
-- Calcular a complexidade de um algoritmo
+- [Calcular a complexidade de um algoritmo](complexidade)
 - Identificar o tipo de algoritmo
 - Técnicas avançadas de resolução de algoritmo
 
