@@ -6,12 +6,12 @@ Fique a vontade para escolher um tópico da jornada que mais te agrada e aprende
 
 [Quero iniciar do começo.](introducao/introducao)
 
-<details>
-  <summary>Jornada do Aprendiz</summary>
-    * Introdução
-    * Conceitos básicos
-    * Estrutura de dados
-    * Uso básico do terminal
-    * Controle de versão
-</details>
+
+### Jornada do Aprendiz
+- [Introdução](introducao/introducao)
+- [Conceitos básicos](conceitosBasicos/conceitosBasicos)
+- [Estrutura de dados](estruturaDados/estruturaDados)
+- [Uso básico do terminal](terminal/terminal)
+- [Controle de versão](controleVersal/controleVersao)
+
 
