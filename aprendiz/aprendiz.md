@@ -12,6 +12,6 @@ Fique a vontade para escolher um tópico da jornada que mais te agrada e aprende
 - [Conceitos básicos](conceitosBasicos/conceitosBasicos)
 - [Estrutura de dados](estruturaDados/estruturaDados)
 - [Uso básico do terminal](terminal/terminal)
-- [Controle de versão](controleVersal/controleVersao)
+- [Controle de versão](controleVersao/controleVersao)
 
 
