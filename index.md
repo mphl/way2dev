@@ -7,12 +7,12 @@ Caso você esteja no começo de sua jornada, ou seja um profissional experiente 
 **// TODO** 👇
 
 Adquirindo novas habilidades
-- Frontend
-- Backend
+- Front-end
+- Back-end
+- Dados
 - Quality
-- Data
-- Security
 - Devops
+- Security
 - Gestão
 
 [Fórum / Hora da discórdia](forum/forum): Local para bater papo com outros devs.
