@@ -10,6 +10,7 @@ Certo, dado que um software precisa de uma funcionalidade de outro software, tem
 Isso quer dizer que ao fazer uma chamada para outro software, você fica esperando ele responder para continuar com seu processamento. 
 
 Algumas técnicas pra gente conhecer:
+- [Lib / Plugin](lib): Usamos bibliotecas de terceiros o tempo todo em nosso código.
 - [RPC/gRPC](rpc) : Essa é a forma mais antiga, e o Google deu uma repaginada criando o gRPC.
 - [XML](xml): Tentativa de organizar um pouco o RPC.
 - [REST](rest): Essa provavelmente é o tipo mais comum.
