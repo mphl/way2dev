@@ -10,7 +10,7 @@ Para trabalhar com os *Datasets* o Spark criou uma abstração chamada RDD (Resl
 
 Considerações importantes sobre RDDs:
 - são distribuídos. Desta forma é possível rodar em partições diferentes dentro do cluster.
-- são imutáveis. Assim são evitados os problemans de programação concorrente.
+- são imutáveis. Assim são evitados os problemas de programação concorrente.
 - são resilientes. Possibilitando serem recriados a qualquer momento, sendo tolerante a falhas.
 
 Portanto, utilizando o Spark todo o trabalho é definido criando um RDD, transformando um RDD e chamando operações e computando resultados. Abaixo vou explicar algumas funções básicas, mas para se aprofundar mais essa [documentação](https://spark.apache.org/docs/latest/rdd-programming-guide.html) pode te ajudar.
