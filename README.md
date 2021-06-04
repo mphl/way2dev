@@ -14,5 +14,5 @@ Se você quiser ser um contribuidor gerando conteúdo para esse site. Entre em c
     - Botão voltar para o sitemap
   - Ações
     - Compartilhar
-    - Sugerir alteração no texto (o usuário seleciona o texto, escreve o que gostaria diferente e um ~~email é enviado~~ PR criado para os contribuidores .    
+    - Sugerir alteração no texto (o usuário seleciona o texto, escreve o que gostaria diferente e um ~~email é enviado~~ PR criado para os contribuidores. Tambem é possível um link para `editar essa página` igual o gRPC faz [aqui](https://grpc.io/docs/what-is-grpc/introduction/)
  
