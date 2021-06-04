@@ -13,7 +13,7 @@ Considerações importantes sobre RDDs:
 - são imutáveis. Assim são evitados os problemans de programação concorrente.
 - são resilientes. Possibilitando serem recriados a qualquer momento, sendo tolerante a falhas.
 
-Portanto, utilizando o Spark todo o trabalho é definido criando um RDD, transformando um RDD ou chamando operações em RDD para computar um resultado. Abaixo vou explicar algumas funções básicas, mas para se aprofundar mais essa [documentação](https://spark.apache.org/docs/latest/rdd-programming-guide.html) pode te ajudar.
+Portanto, utilizando o Spark todo o trabalho é definido criando um RDD, transformando um RDD e chamando operações e computando resultados. Abaixo vou explicar algumas funções básicas, mas para se aprofundar mais essa [documentação](https://spark.apache.org/docs/latest/rdd-programming-guide.html) pode te ajudar.
 
 ## Transformações
 São funções aplicadas em um RDD que resulta em um novo RDD.
@@ -23,3 +23,12 @@ Exemplos:
 - **Flatmap**: funciona da mesma forma que o *Map*, porém cada elemento do RDD de entrada pode gerar mais de um elemento no RDD de saída.
 
 ## Operações
+- **Sample**: retorna um subgrupo do RDD de entrada. Útil para testes.
+- **Distinct**: retorna elementos distintos no RDD de entrada. Essa operação é bem custosa para ser executada.
+- **Union**: retorna a união dos elementos de dois RDDs. Se tiver elemntos repetidos, eles serão duplicados.
+- **Intersection**: retorna elementos comuns de dois RDDs. Lembre-se que se tiver elemntos repetidos dentro de um RDD, eles serão deduplicados.
+- **Subtract**: retorna os elementos que existem no primeiro RDD e não existe no segundo.
+- **Cartesian product** retorna todos os pares possíveis de elementos entre os dois RDDs.
+
+## Ações
+Computam o resultado baseado no RDD.
