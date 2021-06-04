@@ -15,14 +15,16 @@ Considerações importantes sobre RDDs:
 
 Portanto, utilizando o Spark todo o trabalho é definido criando um RDD, transformando um RDD e chamando operações e computando resultados. Abaixo vou explicar algumas funções básicas, mas para se aprofundar mais essa [documentação](https://spark.apache.org/docs/latest/rdd-programming-guide.html) pode te ajudar.
 
-## Transformações
+### Transformações
 São funções aplicadas em um RDD que resulta em um novo RDD.
 Exemplos:
 - **Filter**: retorna um RDD formado pelos elementos que passam na função de filtragem.
 - **Map**: passa cada elemento do RDD de entrada através de uma função, o resultado dessa função é adicionado no RDD de saída.
 - **Flatmap**: funciona da mesma forma que o *Map*, porém cada elemento do RDD de entrada pode gerar mais de um elemento no RDD de saída.
 
-## Operações
+### Operações
+Recebem um ou dois RDDs como entrada e retornam um RDD de saída
+Exemplos:
 - **Sample**: retorna um subgrupo do RDD de entrada. Útil para testes.
 - **Distinct**: retorna elementos distintos no RDD de entrada. Essa operação é bem custosa para ser executada.
 - **Union**: retorna a união dos elementos de dois RDDs. Se tiver elemntos repetidos, eles serão duplicados.
@@ -30,5 +32,17 @@ Exemplos:
 - **Subtract**: retorna os elementos que existem no primeiro RDD e não existe no segundo.
 - **Cartesian product** retorna todos os pares possíveis de elementos entre os dois RDDs.
 
-## Ações
+### Ações
 Computam o resultado baseado no RDD.
+Exemplos:
+- **First**: retorna o primeiro elemento de um RDD.
+- **Collect**: retorna a coleção inteira ou o valor para o programa executando os RDDs. Atenção pois todos o *Dataset* deve caber na memória de apenas uma máquina.
+- **Count e CountByValue**: *count* vai retornar a quantidade de elementos no *Dataset* e o *CountByValue* vai contar a quantidade de vezes que um elemento aparece no *Dataset*.
+- **take**: retorna N elementos de um *Dataset*.
+- **reduce**: passa todos os elementos de um *Dataset*, de dois em dois, numa função de *reduce*. Exemplo se seu *Dataset* é [1,2,3,4,5] e a função de reduce for "X*Y" então o resultado será 120. 
+- **SaveAsTextFile**: usado para escrever dados em um sistema de armazenamento distribuído como Amazon S3, HDFS ou até no seu sistema de arquivo local.
+
+### Bônus: Persistência
+Algumas vezes vamos precisar chamar ações no mesmo RDD múltiplas vezes. Se você fizer isso de forma ingênua, os RDDs e todas suas dependências serão recomputados cada vez que uma ação for chamada num RDD. Se você for reutilizar um RDD, você deve persistir chamando o método **persist()** no seu RDD. Isso vai manter os dados na memória e todos os nós do cluster. Existem diferentes níveis para você persistir os dados levando em consideração se será utilizada a memória e/ou o disco e se os dados serão serializados ou não.
+
+
