@@ -12,7 +12,6 @@ Isso quer dizer que ao fazer uma chamada para outro software, você fica esperan
 Algumas técnicas pra gente conhecer:
 - [Lib / Plugin](lib): Usamos bibliotecas de terceiros o tempo todo em nosso código.
 - [RPC/gRPC](rpc) : Essa é a forma mais antiga, e o Google deu uma repaginada criando o gRPC.
-- [XML](xml): Tentativa de organizar um pouco o RPC.
 - [REST](rest): Essa provavelmente é o tipo mais comum.
 - [GraphQL](graphql): Esta é a forma que  o Facebook achou para contornar os problemas do REST.
 - [Websockets](websockets): Comunicação onde a troca de mensagens é constante, e não apenas uma chamada e uma resposta.
