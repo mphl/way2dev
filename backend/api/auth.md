@@ -71,57 +71,31 @@ Entre esses papeis são tráfegados tokens como:
 - Authorization Token
 - Identity Token
 
-Para se aprofundar mais no assunto e entender as melhores práticas de segurança do Oauth, recomenda e leitura desta [RFC](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics-16)
+Para se aprofundar mais no assunto e entender as melhores práticas de segurança do Oauth, recomenda e leitura desta [RFC](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics-16).
 
-## OPenID Connect
-Imagina uma pessoa, se um sistema requisitar informações dela, podemos falar que ela eh professora e se outro sistema requisitar informações, podemos falar que ela ja correu 5km, o open id controle isso. Se vc tem apenas um provider de identidade o open id nao eh necessário.
+Até agora já sabemos como é a estrutura de um token JWT e que o OAuth nos ajuda a gerenciar tokens, mas se você quer saber mais sobre autenticação, então o OpenID Connect que vai te ajudar.
 
-OIDC provides:
+## OpenID Connect 
+Enquanto o OAuth 2.0 trata do acesso e compartilhamento de recursos, o OIDC trata da autenticação do usuário. Seu objetivo é fornecer a você um login para vários sites. Cada vez que você precisa fazer login em um site usando OIDC, você é redirecionado para o site OpenID, onde faz o login, e depois é levado de volta ao site. Por exemplo, se você escolheu entrar no Way2dev usando sua conta do Google, então você usou o OIDC. Depois de autenticar com sucesso com o Google e autorizar o Way2Dev acessar suas informações, o Google envia informações de volta para Way2Dev sobre o usuário e a autenticação realizada. Essas informações são retornadas em um JWT. Você receberá um token de acesso e, se solicitado, um token de ID.
 
-WHO is the user that got authenticated
+Os JWTs contêm *claims*, que são declarações (como nome ou endereço de e-mail) sobre uma entidade (normalmente, o usuário) e metadados adicionais. A especificação OpenID Connect define um conjunto de declarações padrão. O conjunto de declarações padrão inclui nome, e-mail, gênero, data de nascimento e assim por diante. No entanto, se desejar capturar informações sobre um usuário e atualmente não houver uma declaração padrão que reflita melhor essa informação, você pode criar declarações personalizadas e adicioná-las aos seus tokens.
 
-WHERE was he authenticated
+Se o seu sistema precisar de mais segurança, você pode implementar CIBA (Client-Initiated Backchannel Authentication), desta forma o usuário vai precisar de um dispositivo para aprovar uma requisição de acesso, conforme ilustrado na imagem abaixo:
+<img src="https://miro.medium.com/max/1400/1*Pep5bbuMn6P84yIe_ExSWA.png" alt="CIBA" />
 
-WHEN was he authenticated
+Agora se você estiver trabalhando com sistemas financeiros ou precisar de muita segurança mesmo, então minha sugestão é que você aprenda como funciona o FAPI (Financial-grade API) que é uma especificação de como usar o OAuth2 e OpenID Connect como base e definir requisitos técnicos para garantir uma segurança maior.
 
-WHAT attributes he can give you
-
-WHY he is providing them
-
-Interoperable
-
-- standard scopes : openid, profille, email, address, phone
-- method to ask for more granular claims : request object and claims
-- id token: info about the authenticated user
-- UserInfo endpoint: get attributes about the user. Translate the tokens
-
-Simple
-
-- JSON Based
-- REST Friendly
-
-Secure
-
-- choice of crypt
-
-Flexible
-
-- Granular request: Data minimization
-- Aggregated claims: does not disclose data recipients to data sources
-- Distributed Claims: Decentralized Data Storage
-
-OpenID Connect uses standard JSON Web Token (JWT) data structures when signatures are required. This makes OpenID Connect dramatically easier for developers to implement, and in practice has resulted in much better interoperability.
-
-## FAPI (Financial-grade API)
-Agora que vc já aprendeu toda a base de autenticação, se voce trabalha com sistemas financeiros, recomendo conhecer o FAPI https://fapi.openid.net/  que é uma especificação de como usar OAuth2 e OpenID Connect como base e definir requisitos técnicos para industrias que precisam de uma segurança maior.
-Financial-grade API, o FAPI, é uma especificação técnica desenvolvida pelo Grupo de Trabalho Financial-grade API da OpenID Foundation. Ele utiliza OAuth 2.0 e OpenID Connect (OIDC) como sua base e define requisitos técnicos adicionais para o setor financeiro e outros setores que exigem maior segurança.
-
-## CIBA
-https://miro.medium.com/max/1400/1*Pep5bbuMn6P84yIe_ExSWA.png
 
 ## Gestão de acessos
-Cognito ou Keyclak
+Você deve estar pensando: "nossa, deve dar um trabalhão fazer toda essa gestão de autorização e autenticação". 
 
+Realmente, é um pouco trabalhoso e cansativo. Pensando nisso foi criado ferramentas para te ajudar nesse processo. Existe o [Keycloak](https://www.keycloak.org/) que é uma ferramenta open source e o [Cognito](https://aws.amazon.com/pt/cognito/) caso você esteja trabalhando no cloud da AWS. Assim, todo o controle da identidade dos usuários e o que eles podem acessar fica centralizado em uma ferramenta.
 
-##### Resumo
-Pelo q to entendendo ate agora eu posso ter um software como o Keyclak ou Cognito q faz td gerenciamento de usuário e serviços, oprotocolo  oauth q controla a autorização podendo trafegar um JWT (access token) e o open id connec(OIDC) com o IDToken para a autenticação.
+## Resumo
+- Tokens JWT é a maneira de trafegar informações entre sistemas de forma segura. 
+- OAuth é o framework que te ajuda o controlar os Tokens.
+- OpenID Connect (OIDC) é uma forma de organizar a autenticação do usuário.
+- CIBA e FAPI são maneiras de fornecer mais segurança para nossos usuários e sistemas
+- Keycloak e Cognito são ferramentas para fazer a gestão de autorização e autenticação
+
+Ficou fera 🦁 em segurança de API heim 😉
