@@ -19,3 +19,8 @@ Portanto, esse tipo de integração de código tem 2 vantagens:
 Porém essa abordagem tem 2 problemas que vale a pena ficar atento na hora de usar:
 - O seu código deve utilizar a mesma linguagem de programação da lib.
 - Manutenções na lib não refletem automaticamente em quem está utilizando, normalmente precisa de um update no número da versão e um novo delivery do código que utiliza a lib.
+
+Se você for fazer uma lib, tenha em mente 3 pontos:
+- não se esqueça de fazer uma documentação legal de como utiliza-la, afinal, a maior vantagem de uma lib é compartilhar um código pronto. 
+- não se esqueça de utilizar um sistema de versionamento, assim cada usuário da sua lib vai saber exatamente qual versão do seu código ele está rodando.
+- pense em como distribuir essa lib. Para Javascript temos o [NPM](https://www.npmjs.com/), para Java temos o [MVN](https://mvnrepository.com/) e a linguagem de programação que você usa também deve ter uma, basta procurar no Google pelo nome da linguagem e "gerenciador de dependências".
