@@ -8,8 +8,8 @@ Caso você esteja no começo de sua jornada, ou seja um profissional experiente 
 
 Adquirindo novas habilidades
 - Front-end
-- Back-end
-- Dados
+- [Back-end](backend/backend)
+- [Dados](dados/dados)
 - Quality
 - Devops
 - Security
