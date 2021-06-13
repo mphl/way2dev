@@ -9,3 +9,5 @@ API é um conjunto de padrões estabelecidos por um software para a utilização
 Aqui na jornada do back-end você vai aprender muito mais do que apenas fazer softwares se comunicarem. Também irá aprender padrões e principios de como fazer essa comunicação da melhor forma possível, controlar e observar se tudo está funcionando conforme o esperado além de trabalhar de forma segura.
 
 Tome um café, se aconchegue na cadeira e vamos começar a pensar em como [integrar softwares](api/api).
+
+Mas se você já criou sua API e quer saber como deixar ela de forma segura, aqui você vai aprender tudo sobre [Autenticação e Autorização](api/auth).
