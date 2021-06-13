@@ -7,7 +7,7 @@ Primeiro de tudo, temos que entender a diferença entre autenticação e autoriz
 - **Autenticação**: é o processo de descobrir quem esta fazendo uma requisição e se aquela pessoa realmente é quem ela diz ser.
 - **Autorização**: é o processo para saber se uma pessoa pode fazer o que ela está querendo fazer.
 
-Muitas pessoas acreditam que quando estão fazendo chamadas internas (dentro dos servidores) não precisam se preocupar com autenticação e autorização, porém, essa prática gera vários problemas de matenção a longo prazo, como se alguma pessoa está fazendo muitas requisições no seu serivço, você não sabe para quem comunicar.
+Muitas pessoas acreditam que quando estão fazendo chamadas internas (dentro dos servidores) não precisam se preocupar com autenticação e autorização, porém, essa prática gera vários problemas de manutenção a longo prazo. Exemplo: se alguma pessoa está fazendo muitas requisições no seu serivço, você não sabe para quem comunicar.
 
 Então, sem mais delongas, vamos aprender a ter confiança zero e criar autenticação e autorização nos nossos softwares.
 
@@ -24,7 +24,7 @@ JWT (JSON Web Token) é um método para representar reivindicações de forma se
 
 Se você quiser ficar fera e entender tudo sobre isso, aqui esta a [RFC](https://datatracker.ietf.org/doc/html/rfc7519) contendo toda explicação, mas vou fazer um resumo:
 
-Você pode passar usuário e senha somente uma vez e receber um token, depois as requisições seguintes só precisam veriricar se o token é válido e se a tem permissão para aquela rota.
+Você pode passar usuário e senha somente uma vez e receber um token, depois as requisições seguintes só precisam verificar se o token é válido e se a tem permissão para aquela rota.
 
 Vamos supor que você queira fazer uma requisição e passar as seguintes informações: Eu sou o Marcos, meu ID é 123 e sou admin. Já imaginou que seria muito fácil para outra pessoa mudar a requisição dela e dizer que é admin também ?!
 Vou te mostrar como o JWT resolve isso. 
@@ -34,7 +34,7 @@ Ele separa a informação em três partes:
 - A terceira é uma assinatura dos seus dados, e aqui que entra a segurança da sua requisição, pois somente um token assinado é valido.
 
 Quer ver isso na prática ?
-Esse é um token JWT que gerei
+Esse é um token JWT que gerei:
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyY29zIiwiaWQiOiIxMjMiLCJyb2xlIjoiYWRtaW4ifQ.CvzchzYI18CLUzOJJRriY3HfhRYElNu970IaPRqW-SE
 ```
@@ -46,14 +46,17 @@ Se você entrar no site [jwt.io](https://jwt.io/) e digitar no campo `Encoded` e
   "role": "admin"
 }
 ```
-Então você deve estar pensando, isso não é seguro nada, qualquer um pode pegar meu token e ver e alterar minhas chaves!
+Então você deve estar pensando, isso não é seguro nada, qualquer um pode pegar meu token e ver/alterar minhas chaves!
+
 Mas isso é somente metade verdade. 
-Realmente o token JWT não é criptografado, ele é apenas encodificado. Isso quer dizer que o seu arquivo texto foi tranformado em outro texto, evitando que você possa ter problemas com acentuação, mas todas as informações são decodificaveis facilmente. Portanto nunca coloque senhas ou informações sensíveis num token JWT. 
-A segurança está na assinatura! Você pode ver que o site fala que a assinatura é invalida, isso porque ele não sabe qual assinatura eu utilizei para gerar esse token. Se você for no campo de verificar assinatura do site e começar a digitar, vai ver que a cada letra o site vai falar que a assinatura é valida, pois ele esta validando a chave que você esta digitando com o token do lado esquerdo, mas pode perceber que o token esta sendo alterado constantemente. Se você digitar a senha `way2dev`, vai verificar que o token é igualzinho o que eu gerei ali em cima, e dessa forma o servidor conseguiria identificar que a requisição é válida.
 
-NO payload os campos chamados de claims e existe na RFC alguns reservados q esperam um tipo especifico de dados. Iss (issuer) é quem gerou o token,  o sub (subject) é o assunto, aud (audience). exp (experition time). Existe tb alguns clams publicou do IANA (ta escrito na RFC) q são palavras recomendadas para cada tipo. Exemplo name. Privados são os clams q vc mesmo q cria.
+Realmente o token JWT não é criptografado, ele é apenas encodificado. Isso quer dizer que o seu arquivo texto foi tranformado em outro texto, evitando que você possa ter problemas com acentuação, mas todas as informações são decodificaveis facilmente. **Portanto nunca coloque senhas ou informações sensíveis num token JWT**. 
 
-Certo, agora que você já sabe uma maneira simples e segura de comunicar entre dois sistemas, deve ter percebido que faltou alguns pontos, por exemplo, e se você quiser criar novos tokens? Para isso, o OAuth vai te ajudar.
+A segurança está na assinatura! Você pode ver que o site fala que a assinatura é inválida, isso porque ele não sabe qual assinatura eu utilizei para gerar esse token. Se você for no campo de verificar assinatura do site e começar a digitar, vai ver que a cada letra o site vai falar que a assinatura é valida, pois ele esta validando a chave que você esta digitando com o token do lado esquerdo, mas pode perceber que o token esta sendo alterado constantemente. Se você digitar a senha `way2dev`, vai verificar que o token é igualzinho o que eu gerei ali em cima, e dessa forma o servidor conseguiria identificar que a requisição é válida.
+
+No *payload* os campos são chamados de *claims* e existe na RFC alguns reservados que esperam um tipo específico de dados. Por exemplo: *Iss(issuer)* é quem gerou o token, o *sub(subject)* é o assunto e *exp(experition time)* é o tempo de expriração. Você pode ver a lista de todos os *clams* públicos na IANA(https://www.iana.org/assignments/jwt/jwt.xhtml). Caso o campo que você queira não esteja nessa lista, você pode criar seus *claims* privados.
+
+Certo, agora que você já sabe uma maneira simples e segura de comunicar entre dois sistemas, deve ter percebido que faltou alguns pontos, por exemplo: e se você quiser criar novos tokens? Para isso, o *OAuth* vai te ajudar.
 
 ## OAuth
 OAuth 2.0 é um framework de autorização que habilita um aplicativo a obter acesso limitado para um serviço de terceiro, introduzindo uma camada de autorização e segmentando as funções do cliente. Ao invés de utilizar credenciais fornecidas pelo proprietário do recurso, o client recebe um *Access Token*, contendo o escopo do acesso, tempo de vida, entre outros atributos. Os *Access Tokens* são emitidos para clients terceiros por um servidor de autorização com a aprovação do proprietário do recurso.
@@ -63,9 +66,9 @@ O OAuth 2.0, define 4 papéis:
 - **End-User**: Uma entidade capaz de conceder acesso a recursos protegidos. Quando o proprietário do recurso é um usuário, ele provê o nível de acesso, limitando o escopo de autorização (leitura ou escrita).
 - **Resource Server**: Servidor que hospeda os recursos protegidos, capaz de aceitar e responder a solicitações de recursos protegidos utilizando tokens de acesso.
 - **Client**: Um aplicativo que faz solicitações a recursos protegidos em nome do proprietário do recurso, com a sua autorização.
-- **Authorization Server**: É o servidor que emite e revoga e informa dados sobre o escopo do token tokens de acesso ao , após autenticar com sucesso e obter autorização do .
+- **Authorization Server**: É o servidor que emite, revoga e informa dados sobre o escopo dos tokens tokens de acesso.
 
-Entre esses papeis são tráfegados tokens como:
+Entre esses papeis são tráfegados os seguintes tokens:
 - Access Token
 - Refresh Token
 - Authorization Token
@@ -75,7 +78,7 @@ Para se aprofundar mais no assunto e entender as melhores práticas de seguranç
 
 Até agora já sabemos como é a estrutura de um token JWT e que o OAuth nos ajuda a gerenciar tokens, mas se você quer saber mais sobre autenticação, então o OpenID Connect que vai te ajudar.
 
-## OpenID Connect 
+## OpenID Connect (OIDC)
 Enquanto o OAuth 2.0 trata do acesso e compartilhamento de recursos, o OIDC trata da autenticação do usuário. Seu objetivo é fornecer a você um login para vários sites. Cada vez que você precisa fazer login em um site usando OIDC, você é redirecionado para o site OpenID, onde faz o login, e depois é levado de volta ao site. Por exemplo, se você escolheu entrar no Way2dev usando sua conta do Google, então você usou o OIDC. Depois de autenticar com sucesso com o Google e autorizar o Way2Dev acessar suas informações, o Google envia informações de volta para Way2Dev sobre o usuário e a autenticação realizada. Essas informações são retornadas em um JWT. Você receberá um token de acesso e, se solicitado, um token de ID.
 
 Os JWTs contêm *claims*, que são declarações (como nome ou endereço de e-mail) sobre uma entidade (normalmente, o usuário) e metadados adicionais. A especificação OpenID Connect define um conjunto de declarações padrão. O conjunto de declarações padrão inclui nome, e-mail, gênero, data de nascimento e assim por diante. No entanto, se desejar capturar informações sobre um usuário e atualmente não houver uma declaração padrão que reflita melhor essa informação, você pode criar declarações personalizadas e adicioná-las aos seus tokens.
