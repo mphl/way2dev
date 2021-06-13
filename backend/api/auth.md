@@ -1,6 +1,6 @@
 # Autenticação e autorização
 
-Navegando na internet, acessando nossos apps e até mesmo para acessar logar no computador, estamos acostumados com telinhas de usuário e senha para controlar o acesso. Mas você já parou pra pensar como isso funciona ? Esse tópico vai tentar te explicar um pouco mais sobre isso.
+Navegando na internet, acessando nossos apps e até mesmo para logar no computador, estamos acostumados com telinhas de usuário e senha para controlar o acesso. Mas você já parou pra pensar como isso funciona ? Esse tópico vai tentar te explicar um pouco mais sobre isso.
 
 Primeiro de tudo, temos que entender a diferença entre autenticação e autorização.
 
