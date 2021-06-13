@@ -2,7 +2,7 @@
 
 Você sabe o que é uma *lib*?
 
-Se você já é um programor talvez tenha usado essa palavra várias vezes e não sabe o que significa. *Lib* é abreviação de *library*, (biblioteca, em inglês).
+Se você já é um programor talvez tenha usado essa palavra várias vezes e não sabe o que significa. *Lib* é abreviação de *library*, (biblioteca 📚, em inglês).
 
 E sabe da onde vem esse termo?
 
