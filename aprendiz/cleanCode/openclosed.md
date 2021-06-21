@@ -1,6 +1,6 @@
 # Open Closed Principle 
 
-O princípio do aberto/fechado nos diz que entidades de software (classes, métodos, módulos, funções, etc ) devem estar abertas para extensão, mas fechadas para modificação. 
+O princípio do aberto/fechado nos diz que entidades de software (classes, métodos, módulos, funções, etc) devem estar abertas para extensão, mas fechadas para modificação. 
 
 Isso pode parecer um pouco confuso, então vou explicar na prática!
 
