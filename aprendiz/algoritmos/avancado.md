@@ -25,4 +25,8 @@ Você já aprendeu os conceitos básicos para programar e na maior parte do temp
 - **Objetivo**: Minimizar tempo e espaço.
 -  **Forma**: Induzir uma progressão iterativa de transformações sucessivas de um espaço linear de soluções.
 
+// TODO
 ## Algoritmos NP- Completos
+## Algoritmos eficientes em grafo
+
+Se quiser aprender mais estruturas e técnicas, esse [site](https://visualgo.net/pt) disponibiliza algoritmos e estruturas de dados de forma visual e interativa. 
