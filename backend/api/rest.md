@@ -34,7 +34,8 @@ Não se esqueça de dois conceitos:
 - Após o nome do recurso sempre deve vir o identificador do recurso e seus filtros. Exemplo: `users/123` ou `users?state=SP`.
 - Um GET sem ID sempre retorna uma lista
 
+Documentação super completa sobre Rest [aqui](
+https://github.com/restfulobjects/restfulobjects-spec/blob/2180261f47b7e9279bdb18180ffbee1430b1e342/restfulobjects-spec.pdf?raw=true)
 
-
-Agora que você já aprender a desenhar sua API com REST, fica aqui para aprender a documenta-la: OPen API.
+Agora que você já aprender a desenhar sua API com REST, fica aqui para aprender a documenta-la: Open API.
 - Evite usar subdomínios. 
