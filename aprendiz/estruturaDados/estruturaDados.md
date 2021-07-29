@@ -14,6 +14,7 @@ Existem diversas estruturas de dados, vamos conhecer uma a uma com calma.
 * [Matrix (Matriz)](matrix)
 * [LinkedList (lista encadeada)](linkedlist)
 * [Queue (Filas)](queue)
+* [Heap (Fila de prioridade)](heap)
 * [Stack (Pilhas)](stack)
 * [Binary Tree (árvores binárias)](binarytree)
 * [Graph (Grafos)](graph)
