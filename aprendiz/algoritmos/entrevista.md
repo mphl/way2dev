@@ -63,7 +63,15 @@ Quais são as características de inserção/exclusão/pesquisa?
 Faça testes (em voz alta ou escritos) para seu código
 Código limpo e correto é mais importante que um código perfeito.
 
-  
+ 
+ Depois de ter esclarecido suficientemente o alcance e a intenção do problema, explique sua abordagem de alto nível ao entrevistador, mesmo que seja uma solução ingênua. Se você está preso, considere várias abordagens e explique em voz alta por que pode ou não funcionar. Às vezes, seu entrevistador pode deixar dicas e levá-lo para o caminho certo.
+
+Comece com uma abordagem de força bruta. Comunique-se ao entrevistador. Explique as complexidades do tempo e do espaço e esclarece por que é ruim. É improvável que a abordagem da força bruta seja a que você codificará. Neste ponto, o entrevistador geralmente apresentará a pergunta temida “Podemos fazer melhor?”. Isso significa que eles estão buscando uma abordagem mais ótima.
+
+
+site pra fazer mock interview https://interviewing.io/
+
+site com dicas q tirei aqui https://www.agatetepe.com.br/o-guia-de-30-minutos-para-balancar-sua-proxima-entrevista-de-codificacao/
 
 #### Ordenação
 
