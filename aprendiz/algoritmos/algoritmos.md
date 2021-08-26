@@ -10,4 +10,4 @@ Nesse tópico, você precisa aprender:
 - [Calcular a complexidade de um algoritmo](complexidade)
 - [Técnicas avançadas de algoritmo](avancado)
 
-Se você estiver pensando em fazer entrevistas de emprego, aproveita que atrás dessa [porta](../entrevista) tem várias dicas, porém se você quer aprender como fazer um código bem feito, siga por [aqui](../cleanCode/cleanCode).
+Se você estiver pensando em fazer entrevistas de emprego, aproveita que atrás dessa [porta](../entrevista/entrevista) tem várias dicas, porém se você quer aprender como fazer um código bem feito, siga por [aqui](../cleanCode/cleanCode).
