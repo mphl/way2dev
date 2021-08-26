@@ -29,14 +29,14 @@ Alguns exemplos de variáveis imutáveis:
  *Javscript:*
 
  ```
-const valor = 10 //const define que o valor não poder ser alterado
+const valor = 10 //**const** define que o valor não poder ser alterado
 valor = 11 //aconteceria um erro aqui
  ```
 
  *Java:*
 
  ```
-final Int valor = 10; //final define que o valor não poder ser alterado
+final Int valor = 10; //**final** define que o valor não poder ser alterado
 valor = 11; //aconteceria um erro aqui
  ```
 
