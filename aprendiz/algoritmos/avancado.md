@@ -28,5 +28,9 @@ Você já aprendeu os conceitos básicos para programar e na maior parte do temp
 // TODO
 ## Algoritmos NP- Completos
 ## Algoritmos eficientes em grafo
+- **Busca em profundidade**: Percorre os nós até encontrar uma folha, depois segue para o próximo nó.
+- **Busca em largura**: Percorre todos os nós filhos e depois escolhe um filho para fazer o mesmo procedimento até encontrar as folhas.
+- **Busca em largura com pesos (Dijkstra)**: Calcular a distância de um dado vértice a outro no grafo com pesos não negativos.
+
 
 Se quiser aprender mais estruturas e técnicas, esse [site](https://visualgo.net/pt) disponibiliza algoritmos e estruturas de dados de forma visual e interativa. 
