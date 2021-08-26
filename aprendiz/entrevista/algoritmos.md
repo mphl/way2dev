@@ -5,7 +5,7 @@ Ser capaz de pensar, codificar e comunicar simultaneamente pode parecer uma faç
 
 Um dos melhores livros para aprender todo conteúdo relacionado a algoritmos é o [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/), mas se você é um aprendiz que prefere aprender fazendo, uma dica é utilizar de algum destes sites com exercícios [LeetCode](https://leetcode.com/) , [HackerRank](https://www.hackerrank.com/) e [CodeForces](http://codeforces.com/).
 
-Para se manter sempre afiado neste assunto, a dica é se inscrever no site https://www.dailycodingproblem.com/ assim todos os dias você vai receber um email com um exercício para resolver. 
+Para se manter sempre afiado neste assunto, a dica é se inscrever neste [site](https://www.dailycodingproblem.com/), assim todos os dias você vai receber um email com um exercício para resolver. 
 
 Sem mais delongas, segue dicas valiosas para sua entrevista de algoritmos:
   
