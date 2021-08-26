@@ -20,7 +20,7 @@ Você já aprendeu os conceitos básicos para programar e na maior parte do temp
 - **Objetivo**: convergir para uma solução.
 - **Forma**: tentativa-erro. Gerar estados possíveis e verificar todos até encontrar solução, retrocedendo sempre que se chegar a um beco sem saída.
 
-## [Programação dinâmica (dynamic programming)](dynamicprograming)
+## [Programação dinâmica (dynamic programming)](dynamicprogramming)
 - **Contexto**: Problemas de solução recursiva.
 - **Objetivo**: Minimizar tempo e espaço.
 -  **Forma**: Induzir uma progressão iterativa de transformações sucessivas de um espaço linear de soluções.
