@@ -6,6 +6,7 @@ Entrevistas de emprego para um desenvolvedor normalmente tem as seguintes etapas
 Nesta etapa ele pode verificar seu ingles, se você conhece alguma(s) ferramenta(s) especificas que a empresa precisa e provavelmente perguntar sobre sua carreira para entender sua senioridade.
 ### Algoritmos
 Esta etapa visa validar seus conhecimentos dos fundamentos da programação, se você consegue resolver problemas de forma eficiente.
+Vejo como se preparar para essa fase [aqui](algoritmos).
 ### Coding / Pair Programing
 Esta etapa visa analisar sua capacidade de desenvolver um código limpo e claro, seguindo boas práticas. Além de analisar sua capacidade de comunicação ao dar manutenção em um código existente ou cocriação com os entrevistadores.
 ### Arquitetura / System Design
