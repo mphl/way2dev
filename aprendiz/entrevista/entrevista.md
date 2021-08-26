@@ -4,6 +4,8 @@ Entrevistas de emprego para um desenvolvedor normalmente valida seus conheciment
 
 Este [site](https://interviewing.io/) é ótimo para treinar entrevistas com pessoas reais de grandes empresas.
 
+> **Importante**: Independentemente de etapa você estiver, o entrevistador vai estar analisando sua capacidade de comunicação com ele. Portanto, sempre deixa claro suas intenções e soluções.
+
 ### Conversa com o recrutador técnico.
 Nesta etapa ele pode verificar seu ingles, se você conhece alguma(s) ferramenta(s) especificas que a empresa precisa e provavelmente perguntar sobre sua carreira para entender sua senioridade.
 
@@ -20,5 +22,3 @@ Desenho de uma solução de um projeto.  Pode cobrir desde a experiencia do usu�
 
 ### Desenvolvimento de um projeto
 Aqui a ideia é analisar o quanto você conhece uma linguagem de programação, frameworks e ferramentas.
-
-> **Importante**: Independentemente de etapa você estiver, o entrevistador vai estar analisando sua capacidade de comunicação com ele. Portanto, sempre deixa claro suas intenções e soluções.
