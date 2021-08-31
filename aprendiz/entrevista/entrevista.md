@@ -4,6 +4,8 @@ Entrevistas de emprego para um desenvolvedor normalmente valida seus conheciment
 
 Este [site](https://interviewing.io/) é ótimo para treinar entrevistas com pessoas reais de grandes empresas.
 
+Este [repositório Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) tem diversas dicas para você se preparar para diversas fases de entrevista.
+
 > **Importante**: Independentemente de etapa você estiver, o entrevistador vai estar analisando sua capacidade de comunicação com ele. Portanto, sempre deixa claro suas intenções e soluções.
 
 ### Conversa com o recrutador técnico.
