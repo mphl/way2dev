@@ -25,9 +25,7 @@ Você já aprendeu os conceitos básicos para programar e na maior parte do temp
 - **Objetivo**: Minimizar tempo e espaço.
 -  **Forma**: Induzir uma progressão iterativa de transformações sucessivas de um espaço linear de soluções.
 
-// TODO
-## Algoritmos NP- Completos
-## Algoritmos eficientes em grafo
+## [Algoritmos eficientes em grafo](graph)
 - **Busca em profundidade**: Percorre os nós até encontrar uma folha, depois segue para o próximo nó.
 - **Busca em largura**: Percorre todos os nós filhos e depois escolhe um filho para fazer o mesmo procedimento até encontrar as folhas.
 - **Busca em largura com pesos (Dijkstra)**: Calcular a distância de um dado vértice a outro no grafo com pesos não negativos.
