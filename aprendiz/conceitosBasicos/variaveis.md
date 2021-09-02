@@ -1,4 +1,4 @@
- # Variáveis
+# Variáveis
 
  Variáveis são ferramentas de alocação de dados. Uma variável simplesmente recebe atribuições de valores. Ex:
 
