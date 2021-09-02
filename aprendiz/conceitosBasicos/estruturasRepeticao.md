@@ -1,3 +1,5 @@
+
+
 # Estruturas de repetição
 
 Estruturas de repetição são usadas para executar uma ação repetidas vezes enquanto uma condição se mantém verdadeira. Essas estruturas tem pequenas variações com relação a checar se a condição continua válida, mas todas tem a função.
@@ -109,7 +111,6 @@ fatorial(3) =
 
 logo fatorial(3) = 6
 ```
-
 
 
 **Importante:** recursão gera uma **pilha de chamadas de função** (muito parecido com o que acontece no bloco de exemplo anterior), que mantém o estado da função que chamou a função atual e consequentemente consome memória. Diferente de um loop como while e for, a recursão tem um **limite de vezes** que ela pode ser executada até chegar ao **limite de empilhamento** possível. Quando isso acontece, ocorre o famoso "**estouro de pilha**" ou "**stack overflow**".

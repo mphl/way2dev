@@ -1,3 +1,5 @@
+
+
  # Tipos de dados
 
 Tipos são usados para definir qual o tipo de conteúdo que uma variável pode receber ou os tipos de entrada e retorno usados por uma função. São usados para garantir que o código escrito trabalhe com o tipo de informação que ele conhece. Sem os tipos, uma calculadora pode receber o texto "oi" e gerar um erro, já que a calculadora não sabe o que fazer com o valor "oi".

@@ -1,3 +1,5 @@
+
+
  # Estruturas de controle
 
 Estruturas de controle tem o objetivo de controlar o fluxo de execução de um código. Trazendo para o dia a dia, imagine as estruturas de controle como uma tomada de decisão com base nas informações existentes. Ex:
