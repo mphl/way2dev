@@ -1,6 +1,4 @@
-
-
- # Funções
+# Funções
 
 Funções, em algumas linguagens chamadas de *métodos* , são usadas para descrever uma <u>ação reusável</u>. Lembra das funções de matemática, como f(x) = x + 1? Essa função sempre soma 1 ao valor atribuído a x:
 
