@@ -29,7 +29,7 @@ Um detalhe importante é a palavrinha mágica `return`. Nesse exemplo ela indica
 O ponto importante de ter em mente aqui é que <u>uma função pode ou não retornar um valor após a sua execução</u>. Se ela retornar um valor, você pode atribuí-lo a uma variável como no exemplo de calculoDeQuadrado.
 Caso contrário não existe nada a ser atribuído a variável e o código pode apresentar um erro ou gerar um valor nulo em sua variável dependendo da linguagem de programação.
 
-Funções que não retornam dados estão mais relacionadas à <u>alteração de estado em Objetos</u> ou ações de iteração direta, como exibir uma mensagem na tela. Alterações de estado em objetos será comentado em [aqui](classesObjetos.md).
+Funções que não retornam dados estão mais relacionadas à <u>alteração de estado em Objetos</u> ou ações de iteração direta, como exibir uma mensagem na tela. Alterações de estado em objetos será comentado [aqui](classesObjetos.md).
 
 
 
@@ -58,6 +58,6 @@ conjuntoDeMçãsVerdes = conjuntoDeMaçãsVermelhas.map(transformarMaçã);
 ```
 
 Esse código e o exemplo anterior fazem exatamente a mesma coisa, mas usando a função anônima eu declaro a função diretamente como um valor, já usando uma função comum (nomeada), eu passo diretamente o nome da função, mas *sem usar os parênteses* já que a intenção é passar a função em si e não o valor de uma possível execução dela.
-Nem toda linguagem de programação tem suporte a funções anônimas, já que é possível trabalhar sem as mesmas, mas elas ajudam muito no dinamismo de soluções.
+Nem toda linguagem de programação tem suporte a funções anônimas, já que é possível trabalhar sem as mesmas, mas elas ajudam muito no dinamismo de soluções. Outras linguagens não permitem a passagem de uma função nomeada como um valor, sendo obrigatório o uso de uma função anônima em cenários como o exposto acima.
 
 O uso de funções anônimas permite que uma regra não fique disponível para uso fora do contexto apropriado (já que fora de contexto a função poderia ter resultado adverso), além de facilitar a implementação de alguns padrões de projeto que veremos no futuro. No entanto é importante ter em mente que elas podem causar **aumento no consumo de memória** em algumas linguagens, então fique sempre atento às boas práticas de utilização da liguagem de programação que você escolher.
