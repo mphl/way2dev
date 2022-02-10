@@ -68,7 +68,7 @@ alunoOrlando = new Aluno("Orlando", 16, "segundo colegial")
 Os **parenteses** que acompanham a chamada `new Aluno` é a forma que chamamos um construtor na grande maioria das linguagens de programação, mas existem algumas exceções que não trataremos aqui. 
 No exemplo acima já criamos o Aluno com todos os valores de atributos que haviamos definido em nossa classe Aluno. Mas o construtor não é gerado de forma automática. No nosso caso para que o exemplo acima funcione, precisaríamos descrever o construtor em nossa classe, caso contrário a chamada acima apresentaria um erro.
 
-Para expecificarmos um construtor em nossa classe, definiríamos algo semelhante a:
+Para especificarmos um construtor em nossa classe, definiríamos algo semelhante a:
 
 ```
 classe Aluno {

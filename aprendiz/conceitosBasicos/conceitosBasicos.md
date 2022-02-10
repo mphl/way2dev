@@ -2,9 +2,6 @@
 
 # Conceitos básicos
 
-
-## Introdução
-
 Se você ainda não tem familiaridade com programação, provavelmente já se questionou o que de fato um programador faz, e talvez tenha até pensado em questões como:
 
 > Um programador conhece muito sobre o computador?

@@ -10,11 +10,11 @@ Estruturas de repetição são usadas para executar uma ação repetidas vezes e
 
 **For** é uma estrutura de repetição normalmente utilizada quando estamos fazendo uma ação para um conjunto de elementos, como por exemplo um array de números. Caso quiséssemos checar se um valor existe em um array, poderíamos escrever o seguinte código:
 
-```
-conjuntoDeNumeros = [1,3,2,5,4,6,10] // representação de um array de números inteiros
-numeroPesquisado = 3
+```javascript
+const conjuntoDeNumeros = [1,3,2,5,4,6,10] // representação de um array de números inteiros
+const numeroPesquisado = 3
 
-for(posicao = 0; posicao < tamanhoDo(conjuntoDeNumeros); posicao ++) {
+for(let posicao = 0; posicao < conjuntoDeNumeros.length; posicao ++) {
   if(conjuntoDeNumeros[posicao] == numeroPesquisado) return true
 }
 
@@ -25,7 +25,7 @@ No exemplo acima, definimos o **for** com **3 instruções**, essa é a forma ma
 
 - a primeira instrução é usada para criamos uma **variável de controle dentro do loop**. No caso criamos uma variável chamada **posicao** com o valor de **0**, que será usada para controlar qual **posição do array** estamos acessando;
 - a segunda instrução é a condição para que o **for** **continue rodando**. No exemplo, o **for** deve continuar rodando enquanto a posição que estamos checando no array for menor que o tamanho total do array;
-- a terceira instrução é a "pós-condição", ou seja, o que será feito após a execução de cada repetição do **for**. No caso estamos fazendo a operação **++** no valor de **posicao**, que equivale a **aumentar o valor da variável atual em 1**. Sendo assim, a cada execução do **for**, a variável **posicao** irá ter seu valor incrementado em 1 (começou com 0, na segunda iteração terá o valor de 1, na terceira iteração terá o valor de 2 e assim sussecivamente até alcançar a condição de parada);
+- a terceira instrução é a "pós-condição", ou seja, o que será feito após a execução de cada repetição do **for**. No caso estamos fazendo a operação **++** no valor de **posicao**, que equivale a **aumentar o valor da variável atual em 1**. Sendo assim, a cada execução do **for**, a variável **posicao** irá ter seu valor incrementado em 1 (começou com 0; na segunda iteração terá o valor de 1; na terceira iteração terá o valor de 2 e assim sussecivamente até alcançar a condição de parada);
 
 Além da condição de parada, outros 2 comandos podem interromper um **for**: **break** que simplesmente interrompe o **for**, e **return** que interrompe o **for** e todo o código de instrução atual (incluindo o que vem depois do for).
 
